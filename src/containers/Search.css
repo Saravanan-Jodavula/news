@@ -25,6 +25,8 @@ select {
   @media (min-width: 992px) {
     width: 50%;
   }
+
+}
   
   @media (min-width: 1200px) {
     width: 30%;
@@ -64,6 +66,7 @@ select {
     opacity: 0.3;
     transition: 0.2s ease;
   }
+
   
   &__value {
     display: flex;
@@ -112,7 +115,7 @@ select {
       background-color: #fbfbfb;
     }
   }
-}
+
 
 @keyframes HideList {
   from {

@@ -39,8 +39,8 @@ class Outlet extends Component {
   render() {
     return (
       <div className="outletSection">
-        <h4>
-          Outlet Description{' '}
+        <h4 className="k">
+          CHANNEL:
         </h4>
 
         {this.state.data.map((item, y) => {
