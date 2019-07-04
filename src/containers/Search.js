@@ -42,7 +42,7 @@ class Search extends Component {
 
   render() {
     return (
-      <div className="">
+      <div className="select-box">
         <h4>Select from {this.state.count} News Outlets</h4>
         <select value={this.state.value} onChange={this.handleChange}>
           >

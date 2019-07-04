@@ -58,7 +58,7 @@ class Display extends Component {
       <div className="cardsContainer">
         {this.state.articles.map((news, i) => {
           return (
-            <div className="card" key={i}>
+          /*  <div className="card"  key={i}>
               <div className="content">
                 <h3>
                   <a href={news.url} target="_blank" rel="noopener noreferrer">
@@ -76,7 +76,21 @@ class Display extends Component {
               <div className="image">
                 <img src={news.urlToImage} alt="" />
               </div>
-            </div>
+            </div>        */
+            ////////////////////////////////////////////////////////////////////////////////
+             <div className="card" key={i} >
+               <img className="image" src={news.urlToImage} alt="Card image cap"/>
+                  <div className="card-body">
+                      <h3 className="card-text"><a href={news.url} target="_blank" rel="noopener noreferrer">
+                    {news.title}
+                  </a></h3>
+                      <p className="card-text">{news.description}</p>
+                      <p className="card-text">By <i>{news.author ? news.author : this.props.default}</i></p>
+                      <p className="card-text">{this.formatDate(news.publishedAt)}</p>
+                    </div>
+              </div> 
+
+            ///////////////////////////////////////////////////////////////////////////////
           );
         })}
       </div>

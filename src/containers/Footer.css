@@ -1,8 +1,9 @@
 .footerSection {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 10px 20px 5px 20px;
+  
+  background-color: #3030FF;
+  
 }
 
 .footerSection a {

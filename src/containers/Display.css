@@ -48,6 +48,7 @@
 	padding-left: 1rem;
 	width: 40%;
 	margin-bottom: 0;
+	height: inherit;
 }
 
 .cardsContainer img {
