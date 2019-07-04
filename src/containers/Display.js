@@ -84,7 +84,7 @@ class Display extends Component {
                       <h3 className="card-text"><a href={news.url} target="_blank" rel="noopener noreferrer">
                     {news.title}
                   </a></h3>
-                      <h4 className="card-text K">{news.description}</h4>
+                      <h4 className="card-text" >{news.description}</h4>
                       <p className="card-text">By <i>{news.author ? news.author : this.props.default}</i></p>
                       <p className="card-text">{this.formatDate(news.publishedAt)}</p>
                     </div>
