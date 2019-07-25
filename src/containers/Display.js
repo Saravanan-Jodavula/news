@@ -55,7 +55,7 @@ class Display extends Component {
 
   render() {
     return (
-      <div className="cardsContainer">
+      <div className="cardsContainer" >
         {this.state.articles.map((news, i) => {
           return (
           /*  <div className="card"  key={i}>
@@ -78,9 +78,9 @@ class Display extends Component {
               </div>
             </div>        */
             ////////////////////////////////////////////////////////////////////////////////
-             <div className="card" key={i} >
+             <div className="card"  key={i} >
                <img className="image" src={news.urlToImage} alt="Card image cap"/>
-                  <div className="card-body">
+                  <div className="card-body" >
                       <h3 className="card-text"><a href={news.url} target="_blank" rel="noopener noreferrer">
                     {news.title}
                   </a></h3>
@@ -99,5 +99,3 @@ class Display extends Component {
 }
 
 export default Display;
-
-
