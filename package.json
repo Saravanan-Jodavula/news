@@ -7,7 +7,7 @@
     "core-js": "^2.6.9",
     "newsapi": "^2.4.0",
     "react": "^16.8.6",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "moveto": "^1.7.4",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.8.6",
